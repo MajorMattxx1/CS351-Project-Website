@@ -1,0 +1,59 @@
+        <style>
+            html {
+                font-family: "fonty", "Georgia", serif;
+                }
+            /*Note: that html segment isn't actually changing the font, but without it, h1 is not text aligned. Eventually need to figure out what's going on.*/
+            h1 {
+                text-align: center;
+                }
+            a:active {
+                  background-color: darkorange;
+                  color: black;
+                }
+            nav {
+                font-family: "fonty", "Georgia", serif;
+                
+                background-color: cornflowerblue;
+                max-width: 155px;
+                padding: 1px;
+                border: 5px solid gray;
+                margin: 0;
+            }
+            nav li{
+                
+                list-style-type: none;
+                text-decoration: none;
+                
+            }
+            main {
+                font-family: "fonty", "Georgia", serif;
+                background-color: chocolate;
+                width: 500px;
+                padding: 50px;
+                margin: 40px;
+            }
+            body {
+                font-family: "fonty", "Georgia", serif;
+                background-color: dimgray;
+            }
+            footer {
+                text-align: center;
+                font-size: 10px;
+            }
+           
+            table,
+            td {
+                border: 1px solid #333;
+                width 50%;
+            }
+
+            thead,
+            tfoot {
+                text-align: center;
+                color: solid #333;
+            }
+            
+            tr:nth-child(even) {
+                background-color: #808080;
+            }
+        </style>
