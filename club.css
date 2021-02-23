@@ -56,4 +56,28 @@
             tr:nth-child(even) {
                 background-color: #808080;
             }
+
+            input:required:invalid {
+                border-color: #c00000;
+                background-color: red;
+            }
+
+            input:required:valid {
+                border-color: green;
+                background-color: green;
+            }
+            
+
+            .thanksDialog {
+                height: 0px;
+                margin-left:: -69px;
+            }
+
+            .show {
+            height: 250px;
+            margin-left:: 20px;
+            background-color: white;
+            font-size: 25px;
+            border: 10px solid black;
+            }
         </style>
