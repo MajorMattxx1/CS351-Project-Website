@@ -10,31 +10,49 @@
                   background-color: darkorange;
                   color: black;
                 }
-            nav {
+            .siteLinks{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: row;
+                
                 font-family: "fonty", "Georgia", serif;
                 
                 background-color: cornflowerblue;
-                max-width: 155px;
+                                
                 padding: 1px;
                 border: 5px solid gray;
-                margin: 0;
+                position: fixed;
+                top: 0px;
+                width: 100vw;
+                margin: auto;
             }
-            nav li{
-                
+            .siteLinks li{
+                float: left;
+                display: block;
+                text-align: center;
+                padding: 14px 16px;
+
                 list-style-type: none;
                 text-decoration: none;
                 
             }
             main {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                
                 font-family: "fonty", "Georgia", serif;
                 background-color: chocolate;
-                width: 500px;
-                padding: 50px;
                 margin: 40px;
+                top: 40px;
+                
             }
             body {
                 font-family: "fonty", "Georgia", serif;
                 background-color: dimgray;
+                top: 200px
             }
             footer {
                 text-align: center;
@@ -79,5 +97,12 @@
             background-color: white;
             font-size: 25px;
             border: 10px solid black;
+            }
+
+            .gridy {
+                display: grid;
+                grid-template-areas: auto;
+                    
+                grid-gap: 10px;
             }
         </style>
