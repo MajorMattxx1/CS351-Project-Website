@@ -1,48 +1,41 @@
-<!--copied and modified from https://www.grotto-networking.com/WebsiteDevelopment/files/lectures/HTML1/HTML1.html#/html-5-document-outline -->
-
 <!DOCTYPE html>
-<html lang="en"> <!-- English -->
+<html lang="en">
     <head>
-        <title>Login</title>
+        <meta charset="utf-8">
         <link rel="stylesheet" href="club.css">
-        <style>
-            .loginMessage {
-            text-align: center;
-            background-color: coral;
-            color: white;
-            font-size: 25px;
-            border: 10px solid black;
-            }
-        </style>
+        <title>Fremont Cheese Sniffers</title>
+        <author>Matthew Stanford</author>
+        <description></description>
     </head>
     <body>
         <header>
             <nav>
                 <ul class= "siteLinks">
                     <li><a href="index.html">Main Page</a></li>
-                    <li class="active"><a href="loginPage.html">Login Page</a></li>
+                    <li><a href="loginPage.html">Login Page</a></li>
                     <li><a href="appPage.html">Sign Up Page</a></li>
                     <li><a href="clubActivitiesPage.html">Club Activities</a></li>
                 </ul>
             </nav>
         </header>
-        <main class = "gridy">
-            <h1>Fremont Cheese Sniffers</h1>
-            <div id="messsage"></div>
-            <form>
-                <label for="username">Username </label> 
-                <input type="text" name="username" id="username" required>
-            </form>
-            <form>
-                <label for="password">Password </label> 
-                <input type="password" name="password" id="password" required>
-            </form>
-            <button name= "Login Button" id="loginButton">Login</button>
-        </main>
-        <footer>
-        © 2021 Fremont Cheese Sniffers
-        </footer>
-        <script>
+    <main>
+        <hr />
+<h2>title: Fremont Cheese Sniffers
+author: Matthew Stanford</h2>
+<h1>Fremont Cheese Sniffers</h1>
+<form>
+    <label for="username">Username </label> 
+    <input type="text" name="username" id="username" required>
+</form>
+<form>
+    <label for="password">Password </label> 
+    <input type="password" name="password" id="password" required>
+</form>
+<p><button name= "Login Button" id="loginButton">Login</button></p>
+<footer>
+© 2021 Fremont Cheese Sniffers
+</footer>
+<script>
             document.getElementById("loginButton").addEventListener("click", myFunction)
                                                                   
             function myFunction() {
@@ -60,6 +53,11 @@
                 
                 document.getElementById("loginButton").removeEventListener("click", myFunction)
             }
-        </script>
+</script>
+
+    </main>
+    <footer>
+    © 2021 Fremont Cheese Sniffers
+    </footer>
     </body>
 </html>
